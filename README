@@ -1,0 +1,17 @@
+_________________________
+| Compilazione Sorgenti |
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+Per compilare l'intero set di esercizi + progetto è necessario posizionarsi
+nella directory principale e digitare il comando make.
+Verrà creata una directory dal nome _build che conterrà i binari organizzati
+nel modo indicato e le istruzioni per avviare correttamente ciascun esercizio.
+Sono state usate alcune features , per esempio le espressioni regolari ,
+dello standard C++11 che con versini di GCC precedenti alla 4.9 danno dei
+problemi al momento dell'esecuzione.
+
+_________________________
+| Esecuzione Programmi  |
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+Per eseguire i binari dei vari esercizi bisogna spostarsi nelle varie directory
+all'interno della directory _build e seguire le istruzioni presenti nei vari file
+README dedicati.

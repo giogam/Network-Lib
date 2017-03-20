@@ -1,0 +1,36 @@
+Per avviare correttamente calcServer e calcClient bisogna passare tre parametri:
+    ___________
+    |  Server |
+    ¯¯¯¯¯¯¯¯¯¯¯
+    |
+    |- <mode>     Modalita che può essere "v4" o "v6" se si vuole avviare l'applicativo in IPv4 o IPv6.
+    |- <address>  L'indirizzo IP dell'interfaccia v4 o v6 in base alla modalità indicata prima.
+    |- <port>     La porta su cui aprire il socket.
+    |
+    ___________
+    |  Client |
+    ¯¯¯¯¯¯¯¯¯¯¯
+    |
+    |- <mode>     Modalita che può essere "v4" o "v6" se si vuole avviare l'applicativo in IPv4 o IPv6.
+    |- <address>  L'indirizzo IP del Server v4 o v6 in base alla modalità indicata prima.
+    |- <port>     La porta su cui contattare il server.
+    |
+    __________________
+    | Comandi Client |
+    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+    |
+    |- quit       Serve per uscire dal programma.
+    |- <input>    Qualsiasi stringa diversa da 'quit' sarà inviata al server .
+    |
+    ___________
+    |  Esempio |
+    ¯¯¯¯¯¯¯¯¯¯¯
+    | Modalità v4
+    |
+    |- ./calcServer v4 195.42.18.1 21001
+    |- ./calcClient v4 195.42.18.1 21001
+    |
+    | Modalità v6
+    |- ./calcServer v6 2607:f0d0:1002:51::4 21001
+    |- ./calcClient v6 2607:f0d0:1002:51::4 21001
+    |
